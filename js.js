@@ -93,7 +93,7 @@ function toggleMenu() {
     const sidebar = document.querySelector('.sidebar');
     const nav = document.querySelector('.nav');
     
-    // Добавляем или удаляем класс "active" для отображения меню
+    
     sidebar.classList.toggle('active');
     nav.classList.toggle('active');
 }

@@ -340,8 +340,8 @@ border-radius: 25px;
   
   box-sizing: border-box;
   position: relative;
-  width: 100%; /* Инпут будет растягиваться на всю доступную ширину контейнера */
-  max-width: 418px; /* Но не шире 418px */
+  width: 100%; 
+  max-width: 418px; 
   height: 50px;
   
   background: #FFFFFF;
@@ -387,12 +387,12 @@ border-radius: 25px;
   }
   
   button.calendar-button svg path {
-      stroke: #718EBF; /* Изначальный цвет стрелки */
+      stroke: #718EBF; 
       transition: stroke 0.3s ease;
   }
   
   button.calendar-button:hover svg path {
-      stroke: #1814F3; /* Цвет стрелки при наведении */
+      stroke: #1814F3; 
   }
   
   .container_saveButtun {
@@ -419,7 +419,7 @@ border-radius: 25px;
   }
 
   .burger-menu {
-    display: none; /* Скрыто на больших экранах */
+    display: none; 
     position: absolute;
     z-index: 1000;
 }
@@ -444,14 +444,14 @@ border-radius: 25px;
   color: #232323;
 }
 .nav {
-  display: none; /* Изначально скрываем навигацию */
+  display: none;
 }
 
 .sidebar.active {
   position: absolute;
   top: 100px;
   left: 0;
-  display: block;; /* Показываем меню */
+  display: block;;
   z-index: 100;
 }
 
